@@ -1,35 +1,35 @@
-import product1 from '../../images/product-1.jpg';
-import product2 from '../../images/product-2.jpg';
-import product3 from '../../images/product-3.jpg';
-import sweet1 from '../../images/sweet3.jpg';
-import sweet2 from '../../images/sweet-2.jpg';
-import sweet3 from '../../images/sweet-3.jpg';
+import product1 from '../../images/coffee-5.jpg';
+import product2 from '../../images/coffee-12.jpg';
+import product3 from '../../images/coffee-13.jpg';
+import sweet1 from '../../images/coffee-4.jpg';
+import sweet2 from '../../images/coffee-7.jpg';
+import sweet3 from '../../images/coffee-14.jpg';
 
 export const productData = [
   {
     img: product1,
-    alt: 'Pizza',
-    name: 'Supreme Pizza',
+    alt: 'Coffee',
+    name: 'Café Latte',
     desc:
-      'Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      'A light coffee accompanied by a shot of Espresso and complimented with steamed milk.',
     price: '$19.99',
     button: 'Add to Cart'
   },
   {
     img: product2,
-    alt: 'Pizza',
-    name: 'Hawaiian Paradise',
+    alt: 'Coffee',
+    name: 'Café Americano',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      'A double shot of espresso topped with hot water, served with a complimentary milk on the side.',
     price: '$16.99',
     button: 'Add to Cart'
   },
   {
     img: product3,
-    alt: 'Pizza',
-    name: 'Veggie Overload',
+    alt: 'Coffee',
+    name: 'Café Frappe',
     desc:
-      ' Marinara sauce, basil, italian sausage, roma tomatoes, olives, and pesto',
+      ' The all-time favourite Cafe Frappe. Rich, creamy and irresistably cold coffee, that will never go out of style.',
     price: '$14.99',
     button: 'Add to Cart'
   }
@@ -38,28 +38,28 @@ export const productData = [
 export const productDataTwo = [
   {
     img: sweet2,
-    alt: 'Donuts',
-    name: 'Doughlicious',
+    alt: 'Coffee',
+    name: 'Café Mocha',
     desc:
-      'Belgian chocolate glazed donuts covered in icing with sprinkles on top',
+      'A combination of rich espresso, with a sinful chocolate sauce and steamed milk.',
     price: '$9.99',
     button: 'Add to Cart'
   },
   {
     img: sweet3,
-    alt: 'Ice Cream',
-    name: 'Caramel Wonder',
+    alt: 'Café Zappra',
+    name: 'Café Zappra',
     desc:
-      'Vanilla ice cream covered with caramel and chocolate glaze topped with a coco stick',
+      'A delicious mixture brewed from a blend of imported coffee beans topped with foamed milk.',
     price: '$12.99',
     button: 'Add to Cart'
   },
   {
     img: sweet1,
-    alt: 'Brownie',
-    name: 'Brownie Bunch',
+    alt: 'Aztec Single Origin Coffee',
+    name: 'Aztec Coffee',
     desc:
-      'Double fudge brownie squares topped with white chocolate pieces and macadamia nuts',
+      'A delightful international gourment blend that includes a double shot of espresso.',
     price: '$9.99',
     button: 'Add to Cart'
   }

@@ -26,6 +26,11 @@ export const ProductImg = styled.img`
   min-width: 300px;
   max-width: 100%;
   box-shadow: 8px 8px #fdc500;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: transform 6s cubic-bezier(.25,.45,.45,.95);
+  }
 `;
 
 export const ProductsHeading = styled.h1`
@@ -69,5 +74,6 @@ export const ProductButton = styled.button`
     transition: 0.2s ease-out;
     cursor: pointer;
     color: #000;
+    
   }
 `;
