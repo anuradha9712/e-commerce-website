@@ -1,11 +1,6 @@
 import React from 'react';
-import {
-  FaFacebook,
-  FaInstagram,
-  FaYoutube,
-  FaTwitter,
-  FaLinkedin
-} from 'react-icons/fa';
+import { FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
+
 import {
   FooterContainer,
   FooterWrap,
@@ -22,26 +17,22 @@ const Footer = () => {
       <FooterWrap>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/'>Coffee Hub</SocialLogo>
+            <SocialLogo to='/'>Made by Anuradha Aggarwal</SocialLogo>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
-                <FaFacebook />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
-                <FaInstagram />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Youtube'>
-                <FaYoutube />
-              </SocialIconLink>
+
               <SocialIconLink
-                href='//www.twitter.com/briandesignz'
+                href='https://twitter.com/Anuradh06359394'
                 target='_blank'
                 aria-label='Twitter'
                 rel='noopener noreferrer'
               >
                 <FaTwitter />
               </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
+              <SocialIconLink
+                href='https://www.linkedin.com/in/anuradha-aggarwal-4a2751107/'
+                target='_blank'
+                rel='noopener noreferrer'
+                aria-label='Linkedin'>
                 <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
